@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+>
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="DANH SÁCH ĐÃ LƯU"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:textSize="20dp"
+    android:textColor="#000000"
+    android:background="#FF00BCD4"
+    />
+
+<ListView
+    android:id="@+id/listViewData"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    />
+
+</LinearLayout>
